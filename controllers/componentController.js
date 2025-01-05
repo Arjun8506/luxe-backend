@@ -1,5 +1,4 @@
 const componentService = require("../services/componentService");
-const CustomError = require("../utils/customError");
 
 const addComponent = async (req, res) => {
   try {

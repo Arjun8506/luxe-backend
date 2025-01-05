@@ -1,5 +1,4 @@
 const blogService = require("../services/blogService");
-const CustomError = require("../utils/customError");
 
 exports.createBlog = async (req, res, next) => {
   try {
