@@ -1,5 +1,5 @@
 const Component = require("../models/componentModel");
-const CustomError = require("../utils/customError");
+const CustomError = require("../utils/custom-Error");
 const mongoose = require("mongoose");
 
 const addComponent = async (componentData) => {

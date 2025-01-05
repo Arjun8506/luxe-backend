@@ -1,5 +1,5 @@
 const { uploadImageToCloudinaryTwo } = require("../utils/cloudinarytwo");
-const CustomError = require("../utils/customError");
+const CustomError = require("../utils/custom-Error");
 
 const uploadImage = async (req, res, next) => {
   try {

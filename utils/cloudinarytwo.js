@@ -1,4 +1,4 @@
-const CustomError = require("./customError");
+const CustomError = require("./custom-Error");
 const cloudinary = require("cloudinary").v2;
 
 cloudinary.config({

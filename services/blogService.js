@@ -1,5 +1,5 @@
 const BlogModel = require("../models/blogModel");
-const CustomError = require("../utils/customError");
+const CustomError = require("../utils/custom-Error");
 const Component = require("../models/componentModel");
 
 exports.addBlogService = async (blog,slug) => {
